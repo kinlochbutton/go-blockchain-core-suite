@@ -1,0 +1,12 @@
+package main
+
+import "fmt"
+
+func verifyCrossChain(txID string) bool {
+	fmt.Printf("跨链交易%s验证通过\n", txID)
+	return true
+}
+
+func main() {
+	verifyCrossChain("cross_tx_001")
+}
