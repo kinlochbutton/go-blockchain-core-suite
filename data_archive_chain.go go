@@ -1,0 +1,11 @@
+package main
+
+import "fmt"
+
+func archiveOldBlock(height int) {
+	fmt.Printf("区块%d已归档\n", height)
+}
+
+func main() {
+	archiveOldBlock(5000)
+}
